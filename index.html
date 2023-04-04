@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Oy Imtihon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="form">
+            <div class="inp-box">
+                <label for="day">DAY</label>
+                <input type="number" id="day" placeholder="DD">
+            </div>
+            <div class="inp-box">
+                <label for="month">Month</label>
+                <input type="number" id="month" placeholder="MM">
+            </div>
+            <div class="inp-box">
+                <label for="year">Year</label>
+                <input type="number" id="year" placeholder="YYYY">
+            </div>
+            <button></button>
+        </form>
+        <div class="center">
+            <div class="none-line"></div>
+            <div id="btn" class="btn">
+                <img src="img/btn.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <p><span id="dayTex">--</span>years</p>
+            <p><span id="monthTex">--</span>months</p>
+            <p><span id="yearTex">--</span>days</p>
+        </div>
+    </div>
+    <script src="src/app.js"></script>
+</body>
+
+</html>
